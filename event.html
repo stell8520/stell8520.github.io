@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>事件處理</title>
+        <body onclick="console.log('Body Click')">
+            <h3>Event Handling</h3>
+            <!--<div
+            onclick="console.log('Click')";
+            ondblclick="alert('Double Click');"
+            >Click</div>-->
+            <!--this：觸發事件的標籤-->
+            <!--<div
+            onmouseover="over();"
+            onmouseout="this.style.color='black';"
+            >Click</div>
+            <button
+            onmouseover="this.style.color='red';"
+            onmouseout="this.style.color='black';"
+            >OK</button>
+            -->
+            
+            <div
+            onmouseover="over(this);"
+            onmouseout="out(this);"
+            >Click</div>
+            <button
+            onmouseover="over(this);"
+            onmouseout="out(this);"
+            >OK</button>
+            <script>
+                // 管理工具的平台
+                function over(elem){
+                    elem.style.color="red";
+                    elem.style.fontWeight="bold";
+                }
+                function out(elem){
+                    elem.style.color="black";
+                    elem.style.color="normal";
+                }
+            </script>
+        </body>
+    </head>
+</html>
