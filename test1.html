@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>facebook登入</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+    <div class="frame">
+        <div class="left">    
+            <span style="font-family:sans-serif;">facebook</span>  
+        </div>
+        <div class="right;">
+                <div style="display:inline;font-size:13px;color:white;line-height:25px;">電子郵件或電話
+                </div><div style="display:inline;font-size:13px;color:white;margin-left:70px;line-height:25px;">密碼
+            </div>
+            <div style="letter-spacing:13px;">
+            <input type="text" style="width:145px; height:18px;"/>
+            <input type="password" style="width:145px; height:18px;"/>
+            <input type="button" value="登入"  style="color:white;background-color:rgb(73, 100, 171);width:40px;height:20px;border:5px black;font-weight:bold;"/>
+            </div>
+            <div style="font-size:13px;color:rgb(194, 210, 255);line-height:25px;margin-left:162px;">&nbsp;&nbsp;忘記帳號？
+            </div>
+        </div>
+    </div>
+    <div class="n2">
+        <div class="left2">
+            <span style="font-family:sans-serif;">Facebook，讓你和親朋好友保持聯繫，隨時分享生活中的每一刻。</span>
+        </div>
+        <div class="right2">
+            <div style="font-family:sans-serif;font-weight:bold;font-size:37px;height:40px;">註冊</div>
+            <div style="font-size:22px;height:30px;">永遠免費！</div>
+        </div>
+    </div>
+    <div class="n3">
+        <div class="left3"></div>
+        <div style="letter-spacing:8px",class="right3">
+            <input type="text" style="width:192px;height:36px;border-radius:7px;font-family:sans-serif;color:rgb(189, 189, 196)">
+            <input type="text" style="width:192px;height:36px;border-radius:7px;font-family:sans-serif;color:rgb(189, 189, 196)">
+        <div style="letter-spacing:10px",class="right3">
+            <input type="text" style="width:400px;height:36px;border-radius:7px;font-family:sans-serif;color:rgb(189, 189, 196)">
+        <div style="letter-spacing:10px",class="right3">
+            <input type="text" style="width:400px;height:36px;border-radius:7px;font-family:sans-serif;color:rgb(189, 189, 196)">
+        </div>
+    </div></div></div>
+    <div class="n4">
+        <div class="left4"></div>
+        <div class="right4">
+            <div style="font-size:19px">生日
+        </div>
+        <div style="display:inline;letter-spacing:-5px;">
+            <form>
+            <select style= "width:65px; height:29px"; name="Select_Year" id="Select_Year"></select> 
+            <script> 
+            var Select_Year = document.getElementById("Select_Year") 
+            var Year_Start = 1905 //起始年 
+        	var Year_End = 2020  //結束年 
+            var Year_Len = Year_End - Year_Start + 1; Select_Year.options.length = Year_Len; 
+            for (var i = 0; i < Year_Len; i++) { 
+            Select_Year.options[i].text = Select_Year.options[i].value = Year_Start + i;  
+            }
+            </script> 
+            <form>
+                <select style= "width:70px; height:29px;margin-bottom:2px"; name="Month">
+                  <option value="00">月</option>
+                　<option value="01">1月</option>
+                　<option value="02">2月</option>
+                　<option value="03">3月</option>
+                　<option value="04">4月</option>
+                　<option value="05">5月</option>
+                　<option value="06">6月</option>
+                　<option value="07">7月</option>
+                　<option value="08">8月</option>
+                　<option value="09">9月</option>
+                　<option value="10">10月</option>
+                　<option value="11">11月</option>
+                　<option value="12">12月</option>
+                </select>
+            <form>
+                <select style="width:50px; height:29px"; name="Day">
+                  <option value="00">日</option>
+                　<option value="01">1</option>
+                　<option value="02">2</option>
+                　<option value="03">3</option>
+                　<option value="04">4</option>
+                  <option value="05">5</option>
+                　<option value="06">6</option>
+                　<option value="07">7</option>
+                　<option value="08">8</option>
+                　<option value="09">9</option>
+                　<option value="10">10</option>
+                　<option value="11">11</option>
+                　<option value="12">12</option>
+                  <option value="13">13</option>
+                　<option value="14">14</option>
+                　<option value="15">15</option>
+                　<option value="16">16</option>
+                　<option value="17">17</option>
+                  <option value="18">18</option>
+                　<option value="19">19</option>
+                　<option value="20">20</option>
+                　<option value="21">21</option>
+                　<option value="22">22</option>
+                　<option value="23">23</option>
+                　<option value="24">24</option>
+                　<option value="25">25</option>
+                  <option value="26">26</option>
+                　<option value="27">27</option>
+                　<option value="28">28</option>
+                　<option value="29">29</option>
+                　<option value="30">30</option>
+                　<option value="31">31</option>
+                </select>
+            </form></form></div>
+            <div style="line-height:16px;">
+            <span style="display:inline;font-size:10px;">為什麼需要提供出生日期的資料？
+            </span>
+        </div>
+        <div style="line-height:50px;">
+            <form style="font-size:19px">
+                <input type="radio" name="SEX" value="WOMAN">女性
+                <input type="radio" name="SEX" value="MAN">男性
+            </form>
+        </div></div>
+    </div>
+    <div class="n5">
+        <div class="left5"></div>
+        <div class="right5">點擊「註冊」即表示你同意我們的使用條款、資料政策和</div>
+        <div>Cookie 政策。你可能會收到我們的簡訊通知，而且可以隨</div>
+        <div>時選擇停止接收。</div>
+    </div>
+
+
+</body>
+</html>

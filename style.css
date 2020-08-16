@@ -1,0 +1,102 @@
+body{
+    margin:auto
+}
+.frame{
+    background-color:rgb(64, 87, 150);
+    padding:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.left{
+    width:600px;
+    font-weight:bold;
+    font-size:40px;color:white;
+    line-height:40px;
+    margin-top:10px;
+    margin-bottom:-2px;
+    margin-left:-20px;
+    margin-right:20px;
+}
+.right{
+    width:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.n2{
+    background-color:rgb(241, 241, 243);
+    height:100px;
+    line-height:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;
+}
+.left2{
+    width:425px;
+    font-weight:bold;
+    font-size:21px;color:rgb(38, 54, 100);
+    padding:30px;
+    margin-left:-50px;
+    margin-right:50px;
+
+}
+.right2{
+    width:425px;
+    color:rgb(20, 7, 80);
+    padding:30px;
+    margin-left:50px;
+    margin-right:-50px;
+}
+.n3{
+    background-color:rgb(241, 241, 243);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:52px;
+    margin-top:-30px;
+}
+.left3{
+    background-image:url(https://stell8520.github.io/img/GwFs3_KxNjS.png);
+    width:400px;
+    padding:80px;
+}
+.right3{
+    width:425px;
+    font-weight:200px;
+    font-size:21px;color:black;
+    padding:10px;
+}
+.n4{
+    background-color:rgb(241, 241, 243);
+    height:140px;
+    line-height:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;
+}
+.left4{
+    width:420px;
+    padding:80px;
+}
+.right4{
+    width:425px;
+    font-weight:200px;
+    font-size:21px;color:black;
+    padding:150px;
+}
+.n5{
+    background-color:rgb(241, 241, 243);
+    font-weight:200px;
+    font-size:9px;color:rgb(132, 122, 113);
+    padding:10px;
+    height:120px;
+}
+.left5{
+    width:425px;
+}
+.right5{
+    line-height:16px;
+}
